@@ -1,0 +1,19 @@
+<head>
+  <title>autoform_array_problem</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Array Update Bug</h1>
+        <p>
+          After modifying the array and submitting, the array should reflect the new values. But we need to refresh to see the correct values. Delete the local autoform package to see how its supposed to work.
+        </p>
+        {{#each posts}}
+          {{> quickForm collection="Posts" doc=this id="updatePostForm" type="update"}}
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</body>
