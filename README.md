@@ -1,1 +1,1 @@
-Repo for bug found with https://github.com/aldeed/meteor-autoform/pull/604
+Repo for bug found in https://github.com/aldeed/meteor-autoform/pull/604.
