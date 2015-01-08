@@ -1,0 +1,7 @@
+<template name="afQuickFields">
+  {{#each afFieldNames name=this.name}}
+    {{#with name=this}}
+    {{> afQuickField quickFieldAtts}}
+    {{/with}}
+  {{/each}}
+</template>
